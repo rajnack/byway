@@ -1,0 +1,1637 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+.wrapper {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 1440px;
+}
+header {
+  border-bottom: 1px solid #e2e8f0;
+  padding: 10px 0;
+  height: 65px;
+}
+
+header .wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .wrapper #task-bar .logo {
+}
+
+header .wrapper .logo a {
+  display: flex;
+  align-items: center;
+}
+
+header .wrapper .logo a h1 {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19.36px;
+  color: #334155;
+}
+
+header .wrapper .right ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+header .wrapper #task-bar .right ul li {
+}
+
+header .wrapper #task-bar .right ul li a {
+}
+
+header .wrapper #task-bar .right ul li a img {
+}
+#button-log {
+  padding: 10px 15px;
+  background-color: #fff;
+  color: #334155;
+  /* border: none; */
+  cursor: pointer;
+  font-size: 14px;
+}
+#button-sign {
+  padding: 10px 15px;
+  color: #fff;
+  background: #334155;
+  /* border: none; */
+  cursor: pointer;
+  font-size: 14px;
+}
+#button-log:hover {
+  background-color: #2980b9;
+}
+#button-sign:hover {
+  background-color: #27ae60;
+}
+.sport {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 0 80px;
+  width: 100%;
+}
+.image-main {
+  width: 45%;
+}
+
+.image-main img {
+  display: block;
+  width: 100%;
+}
+.content {
+  width: 50%;
+}
+.sportlight {
+}
+
+.sportlight .wrapper {
+}
+
+.sportlight .wrapper .sport {
+}
+
+.sportlight .wrapper .sport .content {
+  padding: 30px;
+}
+
+.sportlight .wrapper .sport .content h1 {
+  font-size: 59px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.sportlight .wrapper .sport .content p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25.6px;
+  /* margin: 20px 0; */
+}
+.sportlight .wrapper .sport .content button {
+  border: none;
+  margin-top: 30px;
+}
+.sportlight .wrapper .sport .content button a {
+  padding: 15px 24px;
+  color: #fff;
+  background: #3b82f6;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 8px;
+  outline: none;
+}
+
+.sportlight .wrapper .sport .image-main {
+}
+
+.sportlight .wrapper .sport .image-main img {
+}
+.status {
+  /* padding: 40px 0; */
+  background: #f8fafc;
+  width: 100%;
+}
+
+.status .wrapper {
+}
+
+.status .wrapper .items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 0;
+}
+
+.status .wrapper .items .item-1 {
+  border-left: 4px solid #e2e8f0;
+  text-align: center;
+  padding-left: 35px;
+  display: inline-block;
+}
+.status .wrapper .items .item-1:first-child {
+  border-left: none;
+  padding-left: 0px;
+}
+
+.status .wrapper .items .item-1 h1 {
+  color: #0f172a;
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.status .wrapper .items .item-1 p {
+  color: #0f172a;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.categories {
+  /* padding: 50px; */
+}
+
+.categories .wrapper {
+}
+
+.categories .wrapper .middle {
+  padding: 40px 0;
+}
+
+.categories .wrapper .middle .top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.categories .wrapper .middle .top h2 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #0f172a;
+}
+
+.categories .wrapper .middle .top button {
+  padding: 10px 24px;
+  border: none;
+  background: white;
+}
+
+.categories .wrapper .middle .top button a {
+  font-size: 14px;
+  font-weight: 500;
+  color: #3b82f6;
+  border-radius: 8px;
+}
+
+.categories .wrapper .middle .bottom {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+}
+
+.categories .wrapper .middle .bottom .cards {
+  padding: 20px 30px;
+  border: 1px solid #e2e8f0;
+  border-radius: 16px;
+  /* gap: 8px; */
+  text-align: center;
+  width: 25%;
+  /* height: 40%; */
+  box-shadow: 0px 0px 8px 0px #3b82f61f;
+}
+
+.categories .wrapper .middle .bottom .cards span {
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  background: #e0f2fe;
+  border-radius: 50%;
+}
+
+.categories .wrapper .middle .bottom .cards span a {
+}
+
+.categories .wrapper .middle .bottom .cards span a img {
+  display: inline-block;
+  width: 35px;
+  height: 70px;
+}
+
+.categories .wrapper .middle .bottom .cards h4 {
+  padding: 15px 0;
+}
+
+.categories .wrapper .middle .bottom .cards h4 a {
+  font-size: 20px;
+  font-weight: 600;
+  /* padding: 15px 0; */
+}
+
+.categories .wrapper .middle .bottom .cards h6 {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.courses {
+  /* padding: 50px; */
+}
+
+.courses .wrapper {
+}
+
+.courses .wrapper .course {
+  padding: 40px 0;
+}
+
+.courses .wrapper .course .top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.courses .wrapper .course .top h2 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #0f172a;
+}
+
+.courses .wrapper .course .top button {
+  padding: 10px 24px;
+  border: none;
+  background: white;
+}
+
+.courses .wrapper .course .top button a {
+  font-size: 14px;
+  font-weight: 500;
+  color: #3b82f6;
+  border-radius: 8px;
+}
+
+.courses .wrapper .course .bottom {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+}
+.courses .wrapper .course .bottom .card {
+  padding: 10px;
+  border: 1px solid #e2e8f0;
+  border-radius: 16px;
+  /* gap: 8px; */
+  text-align: center;
+  width: 25%;
+  /* height: 40%; */
+  box-shadow: 0px 0px 8px 0px #3b82f61f;
+}
+
+.courses .wrapper .course .bottom a {
+}
+
+.courses .wrapper .course .bottom a img {
+  width: 100%;
+  display: inline-block;
+}
+
+.courses .wrapper .course .bottom h3 {
+  text-align: start;
+  line-height: 1.9;
+}
+
+.courses .wrapper .course .bottom h6 {
+  text-align: start;
+  line-height: 1.9;
+}
+
+.courses .wrapper .course .bottom ul {
+  display: flex;
+  line-height: 1.9;
+}
+
+.courses .wrapper .course .bottom ul li {
+}
+
+.courses .wrapper .course .bottom ul li a {
+}
+
+.courses .wrapper .course .bottom ul li a img {
+}
+
+.instructors {
+  /* padding: 50%; */
+}
+
+.instructors .wrapper {
+}
+
+.instructors .wrapper .instuct {
+  padding: 40px 0;
+}
+
+.instructors .wrapper .instuct .top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.instructors .wrapper .instuct .top h2 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #0f172a;
+}
+
+.instructors .wrapper .instuct .top button {
+  padding: 10px 24px;
+  border: none;
+  background: white;
+}
+
+.instructors .wrapper .instuct .top button a {
+  font-size: 14px;
+  font-weight: 500;
+  color: #3b82f6;
+  border-radius: 8px;
+}
+
+.instructors .wrapper .instuct .bottom {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+}
+
+.instructors .wrapper .instuct .bottom .card {
+  padding: 10px;
+  border: 1px solid #e2e8f0;
+  border-radius: 16px;
+  /* gap: 8px; */
+  text-align: center;
+  width: 25%;
+  /* height: 40%; */
+  box-shadow: 0px 0px 8px 0px #3b82f61f;
+}
+
+.instructors .wrapper .instuct .bottom .card a {
+}
+
+.instructors .wrapper .instuct .bottom .card a img {
+  width: 100%;
+  display: inline-block;
+}
+
+.instructors .wrapper .instuct .bottom .card h3 {
+  line-height: 1.8;
+  color: #0f172a;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.instructors .wrapper .instuct .bottom .card h6 {
+  color: #334155;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.instructors .wrapper .instuct .bottom .card .bottom-end {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #e2e8f0;
+  line-height: 2.9;
+  margin-top: 15px;
+}
+
+.instructors .wrapper .instuct .bottom .card .bottom-end ul {
+  display: flex;
+  gap: 8px;
+}
+
+.instructors .wrapper .instuct .bottom .card .bottom-end ul li {
+  color: #0f172a;
+  font-size: 14px;
+  font-weight: 800;
+}
+
+.instructors .wrapper .instuct .bottom .card .bottom-end ul li a {
+}
+
+.instructors .wrapper .instuct .bottom .card .bottom-end ul li a img {
+}
+
+.instructors .wrapper .instuct .bottom .card .bottom-end h6 {
+  color: #334155;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.customer {
+  background: #f8fafc;
+}
+.customer .wrapper {
+}
+
+.customer .wrapper .about {
+  padding: 40px 0;
+}
+
+.customer .wrapper .about .top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.customer .wrapper .about .top h2 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #0f172a;
+  width: 25%;
+}
+.customer .wrapper .about .top div {
+}
+.customer .wrapper .about .top .button-container {
+  display: flex;
+  gap: 24px;
+}
+
+.customer .wrapper .about .top .button-container {
+}
+
+.customer .wrapper .about .top .button-container .custom-swiper-button-prev {
+  padding: 10px 16px;
+  border: none;
+  background: #94a3b8;
+  border-radius: 8px;
+  gap: 8px;
+}
+
+.customer .wrapper .about .top .button-container .prev img {
+}
+
+.customer .wrapper .about .top .button-container .custom-swiper-button-next {
+  padding: 10px 16px;
+  border: none;
+  background: #94a3b8;
+  border-radius: 8px;
+  gap: 8px;
+}
+
+.customer .wrapper .about .top .button-container .next img {
+}
+
+.customer .wrapper .about .container {
+}
+
+.customer .wrapper .about .container .card-wrapper {
+}
+
+.customer .wrapper .about .container .card-wrapper .card-list {
+}
+
+.customer .wrapper .about .container .card-wrapper .card-list .card-item {
+  padding: 24px;
+  border: 1px solid #e2e8f0;
+  border-radius: 16px;
+  width: 33.33%;
+  box-shadow: 0px 0px 8px 0px #3b82f61f;
+  border-radius: 8px;
+}
+.customer
+  .wrapper
+  .about
+  .container
+  .card-wrapper
+  .card-list
+  .card-item
+  .bottom-end
+  ul
+  li:nth-child(1) {
+  font-size: 18px;
+  font-weight: 600;
+  color: #000000;
+}
+.customer
+  .wrapper
+  .about
+  .container
+  .card-wrapper
+  .card-list
+  .card-item
+  .bottom-end
+  ul
+  li:nth-child(2) {
+  font-size: 14px;
+  font-weight: 400;
+  color: #334155;
+}
+
+.customer .wrapper .about .container .card-wrapper .card-list .card-item a {
+}
+
+.customer .wrapper .about .container .card-wrapper .card-list .card-item a img {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.customer .wrapper .about .container .card-wrapper .card-list .card-item h5 {
+  text-align: start;
+  line-height: 1.8;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.customer
+  .wrapper
+  .about
+  .container
+  .card-wrapper
+  .card-list
+  .card-item
+  .bottom-end {
+  display: flex;
+  margin-top: 5px;
+  gap: 8px;
+}
+
+.customer
+  .wrapper
+  .about
+  .container
+  .card-wrapper
+  .card-list
+  .card-item
+  .bottom-end
+  span {
+}
+
+.customer
+  .wrapper
+  .about
+  .container
+  .card-wrapper
+  .card-list
+  .card-item
+  .bottom-end
+  span
+  a {
+}
+
+.customer
+  .wrapper
+  .about
+  .container
+  .card-wrapper
+  .card-list
+  .card-item
+  .bottom-end
+  span
+  a
+  img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.customer
+  .wrapper
+  .about
+  .container
+  .card-wrapper
+  .card-list
+  .card-item
+  .bottom-end
+  ul {
+  line-height: 1.8;
+  text-align: left;
+}
+
+.customer
+  .wrapper
+  .about
+  .container
+  .card-wrapper
+  .card-list
+  .card-item
+  .bottom-end
+  ul
+  li {
+}
+
+.customer .wrapper .about .bottom .card .bottom-end ul li:nth-child(1) {
+  color: #000000;
+  font-size: 18px;
+  font-weight: 600;
+}
+.customer .wrapper .about .bottom .card .bottom-end ul li:nth-child(2) {
+  color: #334155;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+/* swiper.css */
+
+.swiper-container {
+  position: relative; /* Ensure the container is positioned relative to position the buttons inside it */
+}
+
+/* Basic styling for the next button */
+.swiper-button-next {
+  padding: 20px;
+  width: 30px;
+  height: 30px;
+  background-color: rgba(176, 164, 164, 0.5);
+  border-radius: 20%;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+/* Styling for the prev button */
+.swiper-button-prev {
+  padding: 10px 16px;
+  background: #94a3b8;
+  border-radius: 8px;
+  width: 40px !important;
+  height: 30px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+/* Example of changing the color of the arrows */
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  font-family: "swiper-icons";
+  font-size: 14px !important;
+  color: #fff;
+}
+
+/* swiper.css */
+
+.skill {
+}
+
+.skill .wrapper {
+}
+
+.skill .wrapper .tech-skill {
+  padding: 40px 0;
+}
+
+.skill .wrapper .tech-skill .top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.skill .wrapper .tech-skill .top .cover {
+}
+
+.skill .wrapper .tech-skill .top .cover a {
+}
+
+.skill .wrapper .tech-skill .top .cover a img {
+}
+
+.skill .wrapper .tech-skill .top .content {
+  width: 50%;
+}
+
+.skill .wrapper .tech-skill .top .content h4 {
+  line-height: 1.8;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.skill .wrapper .tech-skill .top .content p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.8;
+  margin-bottom: 15px;
+}
+
+.skill .wrapper .tech-skill .top .content buttun {
+  position: relative;
+}
+
+.skill .wrapper .tech-skill .top .content buttun a {
+  padding: 10px 24px;
+  color: #fff;
+  background: #020617;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 8px;
+  outline: none;
+  display: inline-block;
+}
+.skill .wrapper .tech-skill .top .content buttun a img {
+  position: absolute;
+  /* right: 30px; */
+  bottom: 2px;
+  width: 13px;
+  height: 37ox;
+  right: 7px;
+}
+
+.skill .wrapper .tech-skill .bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.skill .wrapper .tech-skill .bottom .content {
+  width: 50%;
+}
+
+.skill .wrapper .tech-skill .bottom .content h4 {
+  font-size: 20px;
+  line-height: 1.8;
+  font-weight: 600;
+}
+
+.skill .wrapper .tech-skill .bottom .content p {
+  line-height: 1.8;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+
+.skill .wrapper .tech-skill .bottom .content buttun {
+  position: relative;
+}
+
+.skill .wrapper .tech-skill .bottom .content buttun a {
+  padding: 10px 24px;
+  color: #fff;
+  background: #020617;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 8px;
+  outline: none;
+  display: inline-block;
+}
+
+.skill .wrapper .tech-skill .bottom .content buttun img {
+  position: absolute;
+  right: 4px;
+  bottom: 3px;
+  width: 13px;
+}
+
+.skill .wrapper .tech-skill .bottom .cover {
+}
+
+.skill .wrapper .tech-skill .bottom .cover a {
+}
+
+.skill .wrapper .tech-skill .bottom .cover a img {
+}
+
+.footer {
+  background: #1e293b;
+}
+
+.footer .wrapper {
+}
+
+.footer .wrapper .last {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  padding: 80px;
+  background: #1e293b;
+  gap: 100px;
+}
+
+.footer .wrapper .last .byway {
+  /* display: flex; */
+}
+
+.footer .wrapper .last .byway .logo {
+  /* display: flex; */
+}
+
+.footer .wrapper .last .byway .logo a {
+  display: flex;
+}
+
+.footer .wrapper .last .byway .logo a .bg1 {
+}
+
+.footer .wrapper .last .byway .logo a .bg1 img {
+}
+
+.footer .wrapper .last .byway .logo a h1 {
+  color: #cbd5e1;
+}
+
+.footer .wrapper .last .byway p {
+  font-size: 14px;
+  font-weight: 400;
+  color: #cbd5e1;
+  line-height: 2;
+}
+
+.footer .wrapper .last .help {
+  line-height: 1.8;
+}
+
+.footer .wrapper .last .help ul {
+}
+
+.footer .wrapper .last .help ul li a {
+  color: #cbd5e1;
+}
+
+.footer .wrapper .last .programs {
+  line-height: 1.8;
+}
+
+.footer .wrapper .last .programs ul {
+}
+
+.footer .wrapper .last .programs ul li a {
+  color: #cbd5e1;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.footer .wrapper .last .contact {
+  line-height: 1.8;
+}
+
+.footer .wrapper .last .contact ul {
+}
+
+.footer .wrapper .last .contact ul li a {
+  color: #cbd5e1;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.footer .wrapper .last .contact .social-media ul li a {
+  color: #cbd5e1;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.footer .wrapper .last .contact .social-media ul li a img {
+  width: 20%;
+}
+.footer .wrapper .last .help ul li:nth-child(1) {
+  font-size: 18px;
+  font-weight: 600;
+  color: #cbd5e1;
+  width: 110px;
+}
+
+.footer .wrapper .last .programs ul li:nth-child(1) {
+  font-size: 18px;
+  font-weight: 600;
+  color: #cbd5e1;
+  width: 100px;
+}
+
+.footer .wrapper .last .contact ul li:nth-child(1) {
+  font-size: 18px;
+  font-weight: 600;
+  color: #cbd5e1;
+  width: 100px;
+}
+
+.footer .wrapper .last .contact .social-media {
+  display: flex;
+  margin-top: 15px;
+  gap: 8px;
+}
+
+.footer .wrapper .last .contact .social-media span {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background: #e0f2fe;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.footer .wrapper .last .contact .social-media span a {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+
+.footer .wrapper .last .contact .social-media span a img {
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  right: 7px;
+  bottom: 8px;
+}
+@media (max-width: 1280px) {
+  .sportlight .wrapper .sport .content h1 {
+    font-size: 44px;
+    font-weight: 700;
+    margin-bottom: 15px;
+  }
+  .sportlight .wrapper .sport .content p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25.6px;
+    /* margin: 20px 0; */
+  }
+  .instructors .wrapper .instuct .bottom .card .bottom-end h6 {
+    color: #334155;
+    font-size: 12px;
+    font-weight: 600;
+  }
+  .courses .wrapper .course .bottom h3 {
+    text-align: start;
+    line-height: 1.9;
+    font-size: 16px;
+    font-weight: 800;
+  }
+  .instructors .wrapper .instuct .bottom .card h3 {
+    line-height: 1.8;
+    color: #0f172a;
+    font-size: 17px;
+    font-weight: 600;
+  }
+  .customer .wrapper .about .top h2 {
+    font-size: 21px;
+    font-weight: 600;
+    color: #0f172a;
+    width: 25%;
+  }
+  .footer .wrapper .last {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    padding: 80px;
+    background: #1e293b;
+    gap: 16px;
+  }
+}
+@media (max-width: 980px) {
+  .sportlight .wrapper .sport .content h1 {
+    font-size: 32px;
+    font-weight: 700;
+  }
+  .sportlight .wrapper .sport .content button a {
+    padding: 13px 18px;
+    color: #fff;
+    background: #3b82f6;
+    border: none;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: 500;
+    border-radius: 8px;
+    outline: none;
+  }
+  .status .wrapper .items .item-1 h1 {
+    color: #0f172a;
+    font-size: 28px;
+    font-weight: 500;
+  }
+  .status .wrapper .items .item-1 p {
+    color: #0f172a;
+    font-size: 11px;
+    font-weight: 400;
+  }
+  .courses .wrapper .course .bottom ul li:nth-child(6) {
+    /* font-size: 12px; */
+  }
+  .courses .wrapper .course .bottom {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    flex-wrap: wrap;
+  }
+  .courses .wrapper .course .bottom .card {
+    padding: 10px;
+    border: 1px solid #e2e8f0;
+    border-radius: 16px;
+    /* gap: 8px; */
+    text-align: center;
+    width: 45%;
+    /* height: 40%; */
+    box-shadow: 0px 0px 8px 0px #3b82f61f;
+  }
+  .instructors .wrapper .instuct .bottom {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    flex-wrap: wrap;
+  }
+  .instructors .wrapper .instuct .bottom .card {
+    padding: 10px;
+    border: 1px solid #e2e8f0;
+    border-radius: 16px;
+    /* gap: 8px; */
+    text-align: center;
+    width: 46%;
+    /* height: 40%; */
+    box-shadow: 0px 0px 8px 0px #3b82f61f;
+  }
+  .customer .wrapper .about .top h2 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #0f172a;
+    width: 35%;
+  }
+  .customer .wrapper .about .bottom {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .customer .wrapper .about .bottom .card {
+    padding: 20px;
+    border: 1px solid #e2e8f0;
+    border-radius: 16px;
+    /* gap: 8px; */
+    text-align: center;
+    width: 100%;
+    /* height: 40%; */
+    box-shadow: 0px 0px 8px 0px #3b82f61f;
+  }
+  .skill .wrapper .tech-skill .top .cover a img {
+    width: 100%;
+  }
+  .skill .wrapper .tech-skill .top .cover {
+    width: 40%;
+  }
+  .skill .wrapper .tech-skill .top .content {
+    width: 60%;
+  }
+  .skill .wrapper .tech-skill .top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    gap: 100px;
+  }
+  .skill .wrapper .tech-skill .bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    gap: 100px;
+  }
+  .skill .wrapper .tech-skill .bottom .content {
+    width: 60%;
+  }
+  .skill .wrapper .tech-skill .bottom .cover {
+    width: 40%;
+  }
+  .skill .wrapper .tech-skill .bottom .cover a img {
+    width: 100%;
+  }
+  .footer .wrapper .last {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    padding: 40px;
+    background: #1e293b;
+    gap: 16px;
+  }
+}
+@media (max-width: 768px) {
+  .sportlight .wrapper .sport .content h1 {
+    font-size: 28px;
+    font-weight: 700;
+  }
+  .sportlight .wrapper .sport .content button a {
+    padding: 12px 14px;
+    color: #fff;
+    background: #3b82f6;
+    border: none;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: 500;
+    border-radius: 8px;
+    outline: none;
+  }
+  .status .wrapper .items .item-1 {
+    border-left: 4px solid #e2e8f0;
+    text-align: center;
+    padding-left: 12px;
+    display: inline-block;
+  }
+  .skill .wrapper .tech-skill .bottom .content h4 {
+    font-size: 19px;
+    line-height: 1.8;
+    font-weight: 600;
+  }
+  .footer .wrapper .last {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    padding: 40px;
+    background: #1e293b;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  .customer .wrapper .about .top h2 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #0f172a;
+    width: 40%;
+  }
+  .customer .wrapper .about .top h2 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #0f172a;
+    width: 41%;
+  }
+}
+@media (max-width: 680px) {
+  .sportlight .wrapper .sport .content h1 {
+    font-size: 24px;
+    font-weight: 700;
+  }
+  .sportlight .wrapper .sport .content button a {
+    padding: 12px;
+    color: #fff;
+    background: #3b82f6;
+    border: none;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: 500;
+    border-radius: 8px;
+    outline: none;
+  }
+  .status .wrapper .items .item-1 h1 {
+    color: #0f172a;
+    font-size: 24px;
+    font-weight: 500;
+  }
+  .categories .wrapper .middle .bottom {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    flex-wrap: wrap;
+  }
+  .categories .wrapper .middle .bottom .cards {
+    padding: 20px 30px;
+    border: 1px solid #e2e8f0;
+    border-radius: 16px;
+    /* gap: 8px; */
+    text-align: center;
+    width: 45%;
+    /* height: 40%; */
+    box-shadow: 0px 0px 8px 0px #3b82f61f;
+  }
+  .instructors .wrapper .instuct .bottom .card {
+    padding: 10px;
+    border: 1px solid #e2e8f0;
+    border-radius: 16px;
+    /* gap: 8px; */
+    text-align: center;
+    width: 45%;
+    /* height: 40%; */
+    box-shadow: 0px 0px 8px 0px #3b82f61f;
+  }
+  .customer .wrapper .about .top h2 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #0f172a;
+    width: 45%;
+  }
+  .footer .wrapper .last {
+    padding: 30px;
+  }
+  .footer .wrapper .last .contact .social-media span a img {
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    right: 7px;
+    bottom: 8px;
+  }
+  .footer .wrapper .last .contact .social-media span {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background: #e0f2fe;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  .skill .wrapper .tech-skill .top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    gap: 100px;
+    margin-bottom: 50px;
+  }
+  .skill .wrapper .tech-skill .bottom .content p {
+    line-height: 1.8;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 15px;
+  }
+  .skill .wrapper .tech-skill .bottom .content h4 {
+    font-size: 16px;
+    line-height: 1.8;
+    font-weight: 600;
+  }
+  .skill .wrapper .tech-skill .top .content h4 {
+    line-height: 1.8;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .skill .wrapper .tech-skill .top .content p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.8;
+    margin-bottom: 15px;
+  }
+  .customer .wrapper .about .top h2 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #0f172a;
+    width: 50%;
+  }
+}
+@media (max-width: 480px) {
+  .sport {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    width: 100%;
+    flex-wrap: wrap;
+    display: block;
+    justify-content: center;
+  }
+  .content {
+    width: 100%;
+  }
+  .image-main {
+    width: 100%;
+  }
+  .status .wrapper .items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 20px;
+  }
+  .status .wrapper .items .item-1 {
+    border-left: 0;
+    padding-left: 0;
+  }
+  .status .wrapper .items .item-1 {
+    border-left: 0;
+    padding-left: 0;
+    width: 45%;
+  }
+  .courses .wrapper .course .bottom .card {
+    padding: 10px;
+    border: 1px solid #e2e8f0;
+    border-radius: 16px;
+    /* gap: 8px; */
+    text-align: center;
+    width: 100%;
+    /* height: 40%; */
+    box-shadow: 0px 0px 8px 0px #3b82f61f;
+  }
+  .instructors .wrapper .instuct .bottom .card {
+    padding: 10px;
+    border: 1px solid #e2e8f0;
+    border-radius: 16px;
+    /* gap: 8px; */
+    text-align: center;
+    width: 100%;
+    /* height: 40%; */
+    box-shadow: 0px 0px 8px 0px #3b82f61f;
+  }
+  .instructors .wrapper .instuct .bottom .card .bottom-end h6 {
+    color: #334155;
+    font-size: 14px;
+    font-weight: 600;
+  }
+  .instructors .wrapper .instuct .bottom .card .bottom-end ul li {
+    color: #0f172a;
+    font-size: 16px;
+    font-weight: 800;
+  }
+  .customer .wrapper .about .top h2 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #0f172a;
+    width: 63%;
+  }
+  .skill .wrapper .tech-skill .top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 35px;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+  }
+  .skill .wrapper .tech-skill .top .cover {
+    width: 100%;
+  }
+  .skill .wrapper .tech-skill .top .content {
+    width: 100%;
+  }
+  .skill .wrapper .tech-skill .bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 35px;
+    flex-wrap: wrap;
+  }
+  .skill .wrapper .tech-skill .bottom .content {
+    width: 100%;
+  }
+  .skill .wrapper .tech-skill .bottom .cover {
+    width: 100%;
+  }
+  .customer .wrapper .about .top h2 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #0f172a;
+    width: 66%;
+  }
+}
+@media (max-width: 360px) {
+  .sportlight .wrapper .sport .content {
+    padding: 0px;
+    margin-bottom: 50px;
+  }
+  .categories .wrapper .middle .bottom .cards {
+    padding: 20px 25px;
+    border: 1px solid #e2e8f0;
+    border-radius: 16px;
+    /* gap: 8px; */
+    text-align: center;
+    width: 100%;
+    /* height: 40%; */
+    box-shadow: 0px 0px 8px 0px #3b82f61f;
+  }
+  .categories .wrapper .middle .bottom .cards h4 a {
+    font-size: 20px;
+    font-weight: 600;
+    /* padding: 15px 0; */
+  }
+  .customer .wrapper .about .top h2 {
+    font-size: 23px;
+    font-weight: 600;
+    color: #0f172a;
+    width: 70%;
+  }
+  .customer .wrapper .about .top .button-container {
+    display: flex;
+    gap: 16px;
+  }
+  .customer .wrapper .about .top .button-container .custom-swiper-button-prev {
+    padding: 8px 12px;
+    border: none;
+    background: #94a3b8;
+    border-radius: 8px;
+    gap: 8px;
+  }
+  .customer .wrapper .about .top .button-container .custom-swiper-button-next {
+    padding: 8px 12px;
+    border: none;
+    background: #94a3b8;
+    border-radius: 8px;
+    gap: 8px;
+  }
+  .skill .wrapper .tech-skill .top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 40px;
+    flex-wrap: wrap;
+    margin-bottom: 65px;
+  }
+  .footer .wrapper .last .byway p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #cbd5e1;
+    line-height: 2;
+    width: 97%;
+  }
+
+  .footer .wrapper .last {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    padding: 40px 10px;
+    background: #1e293b;
+    gap: 25px;
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 320px) {
+  .footer .wrapper .last {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    padding: 40px 0;
+    background: #1e293b;
+    gap: 22px;
+    flex-wrap: wrap;
+  }
+  #button-log {
+    padding: 8px 12px;
+    background-color: #fff;
+    color: #334155;
+    /* border: none; */
+    cursor: pointer;
+    font-size: 14px;
+  }
+  #button-sign {
+    padding: 8px 12px;
+    color: #fff;
+    background: #334155;
+    /* border: none; */
+    cursor: pointer;
+    font-size: 14px;
+  }
+  .sportlight .wrapper .sport .content p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22.6px;
+    /* margin: 20px 0; */
+  }
+  .sportlight .wrapper .sport .content h1 {
+    font-size: 22px;
+    font-weight: 700;
+  }
+  .content {
+    width: 111%;
+  }
+  .image-main img {
+    display: block;
+    width: 111%;
+  }
+  .sportlight .wrapper .sport .content {
+    padding: 0px;
+    margin-bottom: 60px;
+  }
+
+  .categories .wrapper .middle .bottom .cards h4 a {
+    font-size: 20px;
+    font-weight: 600;
+    /* padding: 15px 0; */
+  }
+  .customer .wrapper .about .top h2 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #0f172a;
+    width: 70%;
+  }
+  .customer .wrapper .about .container .card-wrapper .card-list .card-item h5 {
+    text-align: start;
+    line-height: 1.8;
+    font-size: 14px;
+    font-weight: 400;
+  }
+  .footer .wrapper .last .byway p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #cbd5e1;
+    line-height: 1.8;
+    width: 101%;
+  }
+  .categories .wrapper .middle .bottom .cards {
+    padding: 18px 22px;
+    border: 1px solid #e2e8f0;
+    border-radius: 16px;
+    /* gap: 8px; */
+    text-align: center;
+    width: 100%;
+    /* height: 40%; */
+    box-shadow: 0px 0px 8px 0px #3b82f61f;
+  }
+}
+
+/* for js */
+#test-button {
+  display: none;
+}
+#button-log-1 {
+  display: none;
+}
+#button-sign-2 {
+  display: none;
+}
+.custom-alert {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  width: 300px;
+  z-index: 1000;
+}
+
+.custom-alert .alert-content {
+  text-align: center;
+}
+
+.custom-alert #alert-message {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.custom-alert #close-alert {
+  background-color: #3b82f6;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.custom-alert #close-alert:hover {
+  background-color: #3b82f6;
+}
+.clickablePhoto {
+  display: none;
+}

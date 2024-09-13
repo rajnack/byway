@@ -1,0 +1,51 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Jane Doe",
+      "description": "Byway's tech courses are top-notch! As someone who's always looking to stay ahead in the rapidly evolving tech world, I appreciate the up-to-date content and engaging multimedia",
+      "image": "assets/icons/span-7.svg",
+      "profession":"Designer"
+    },
+    {
+      "id": 2,
+      "name": "Xviour",
+      "description": "Byway's tech courses are top-notch! As someone who's always looking to stay ahead in the rapidly evolving tech world, I appreciate the up-to-date content and engaging multimedia",
+      "image": "assets/icons/span-5.svg",
+      "profession":"software engineer"
+
+    },
+    {
+        "id": 3,
+        "name": "Rosi",
+        "description": "Byway's tech courses are top-notch! As someone who's always looking to stay ahead in the rapidly evolving tech world, I appreciate the up-to-date content and engaging multimedia",
+        "image": "assets/icons/span-3.svg",
+        "profession":"UI/UX Designer"
+
+      },
+      {
+        "id": 4,
+        "name": "Angel",
+        "description": "Byway's tech courses are top-notch! As someone who's always looking to stay ahead in the rapidly evolving tech world, I appreciate the up-to-date content and engaging multimedia",
+        "image": "assets/icons/span-1.svg",
+        "profession":"Designer"
+
+      },
+      {
+        "id": 5,
+        "name": "Devin",
+        "description": "Byway's tech courses are top-notch! As someone who's always looking to stay ahead in the rapidly evolving tech world, I appreciate the up-to-date content and engaging multimedia",
+        "image": "assets/icons/span-4.svg",
+      "profession":"UI/UX Designer"
+
+      },
+      {
+        "id": 6,
+        "name": "Jose",
+        "description": "Byway's tech courses are top-notch! As someone who's always looking to stay ahead in the rapidly evolving tech world, I appreciate the up-to-date content and engaging multimedia",
+        "image": "assets/icons/span-6.svg",
+      "profession":"software engineer"
+
+      }
+  ]
+}
