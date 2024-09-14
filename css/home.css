@@ -1436,6 +1436,47 @@ header .wrapper #task-bar .right ul li a img {
     padding: 0px;
     margin-bottom: 50px;
   }
+  .status .wrapper .items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 35px;
+    /* border-bottom: 1px solid; */
+  }
+  .status .wrapper .items .item-1 {
+    border-left: 0;
+    padding-left: 0;
+    width: 100%;
+  }
+  #button-log {
+    padding: 8px 12px;
+    background-color: #fff;
+    color: #334155;
+    /* border: none; */
+    cursor: pointer;
+    font-size: 14px;
+  }
+  #button-sign {
+    padding: 8px 12px;
+    color: #fff;
+    background: #334155;
+    /* border: none; */
+    cursor: pointer;
+    font-size: 14px;
+  }
+  .customer .wrapper .about .top h2 {
+    font-size: 22px;
+    font-weight: 600;
+    color: #0f172a;
+    width: 70%;
+  }
+  .footer .wrapper .last .byway .logo a h1 {
+    color: #cbd5e1;
+    font-size: 22px;
+  }
   .categories .wrapper .middle .bottom .cards {
     padding: 20px 25px;
     border: 1px solid #e2e8f0;
@@ -1451,11 +1492,20 @@ header .wrapper #task-bar .right ul li a img {
     font-weight: 600;
     /* padding: 15px 0; */
   }
-  .customer .wrapper .about .top h2 {
-    font-size: 23px;
+  .categories .wrapper .middle .top h2 {
+    font-size: 22px;
     font-weight: 600;
     color: #0f172a;
-    width: 70%;
+  }
+  .courses .wrapper .course .top h2 {
+    font-size: 22px;
+    font-weight: 600;
+    color: #0f172a;
+  }
+  .instructors .wrapper .instuct .top h2 {
+    font-size: 22px;
+    font-weight: 600;
+    color: #0f172a;
   }
   .customer .wrapper .about .top .button-container {
     display: flex;
@@ -1513,7 +1563,7 @@ header .wrapper #task-bar .right ul li a img {
     flex-wrap: wrap;
   }
   #button-log {
-    padding: 8px 12px;
+    padding: 8px;
     background-color: #fff;
     color: #334155;
     /* border: none; */
@@ -1521,7 +1571,7 @@ header .wrapper #task-bar .right ul li a img {
     font-size: 14px;
   }
   #button-sign {
-    padding: 8px 12px;
+    padding: 8px;
     color: #fff;
     background: #334155;
     /* border: none; */
@@ -1583,6 +1633,15 @@ header .wrapper #task-bar .right ul li a img {
     width: 100%;
     /* height: 40%; */
     box-shadow: 0px 0px 8px 0px #3b82f61f;
+  }
+  .footer .wrapper .last {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    padding: 40px 10px;
+    background: #1e293b;
+    gap: 22px;
+    flex-wrap: wrap;
   }
 }
 

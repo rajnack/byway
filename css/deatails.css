@@ -1073,3 +1073,225 @@ header .wrapper .right ul li a span {
   right: 7px;
   bottom: 8px;
 }
+
+@media (max-width: 1280px) {
+  .sportlight .wrapper .sportlight-of-deatails .left .content h1 {
+    font-size: 34px;
+    font-weight: 700;
+    color: #0f172a;
+    line-height: 1.8;
+    width: 114%;
+  }
+  .customer .wrapper .about .top h2 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #0f172a;
+    width: 30%;
+  }
+  .footer .wrapper .last .byway p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #cbd5e1;
+    line-height: 1.8;
+  }
+  .sportlight .wrapper .sportlight-of-deatails .left .content h1 {
+    font-size: 28px;
+    font-weight: 700;
+    color: #0f172a;
+    line-height: 1.8;
+    width: 123%;
+  }
+  .sportlight .wrapper .sportlight-of-deatails .left .content p {
+    line-height: 1.9;
+    color: #334155;
+    font-size: 15px;
+    font-weight: 400;
+  }
+  .sportlight .wrapper .sportlight-of-deatails .right {
+    width: 36%;
+    border: 1px solid #e2e8f0;
+    box-shadow: 0px 0px 8px 0px #3b82f61f;
+    padding: 30px;
+    border-radius: 16px;
+    background: #ffffff;
+    position: absolute;
+    right: 0px;
+    top: 41px;
+  }
+  .sportlight .wrapper .sportlight-of-deatails .left .rating {
+    display: flex;
+    align-items: center;
+    margin: 25px 0;
+    width: 128%;
+  }
+  .middle .wrapper .top .button-container button {
+    padding: 16px 19px;
+    border-radius: 8px;
+    border: 1px solid #e2e8f0;
+    background: #ffffff;
+    color: #0f172a;
+  }
+  .middle .wrapper .syllabus h4 {
+    color: #0f172a;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 15px;
+  }
+  .customer .wrapper .about .top h2 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #0f172a;
+    width: 41%;
+  }
+  .footer .wrapper .last {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    padding: 80px;
+    background: #1e293b;
+    gap: 100px;
+    flex-wrap: wrap;
+  }
+  .courses .wrapper .course .bottom .card {
+    padding: 10px;
+    border: 1px solid #e2e8f0;
+    border-radius: 16px;
+    /* gap: 8px; */
+    text-align: center;
+    width: 47%;
+    /* height: 40%; */
+    box-shadow: 0px 0px 8px 0px #3b82f61f;
+  }
+  .courses .wrapper .course .bottom {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    flex-wrap: wrap;
+  }
+  .sportlight
+    .wrapper
+    .sportlight-of-deatails
+    .right
+    .price
+    ul
+    li:nth-child(3) {
+    color: #16a34a;
+    font-size: 17px;
+  }
+}
+@media (max-width: 768px) {
+  .sportlight .wrapper .sportlight-of-deatails .left .content h1 {
+    font-size: 22px;
+    font-weight: 700;
+    color: #0f172a;
+    line-height: 1.8;
+    width: 123%;
+  }
+  .sportlight .wrapper .sportlight-of-deatails .right {
+    width: 30%;
+    border: 1px solid #e2e8f0;
+    box-shadow: 0px 0px 8px 0px #3b82f61f;
+    padding: 25px;
+    border-radius: 16px;
+    background: #ffffff;
+    position: absolute;
+    right: 0px;
+    top: 73px;
+    display: none;
+  }
+
+  .middle .wrapper .description p {
+    line-height: 1.8;
+    color: #334155;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 15px;
+  }
+  .middle .wrapper .instructor p {
+    color: #334155;
+    font-size: 14px;
+    font-weight: 400;
+    width: 70%;
+    line-height: 1.8;
+  }
+  .middle .wrapper .syllabus .content {
+    width: 130%;
+  }
+  .sportlight .wrapper .sportlight-of-deatails .left .rating {
+    display: flex;
+    align-items: center;
+    margin: 25px 0;
+    width: 154%;
+  }
+  .sportlight .wrapper .sportlight-of-deatails .left .nav {
+    display: flex;
+    width: 134%;
+  }
+  .middle .wrapper .learn-reviews .review {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .middle .wrapper .learn-reviews .review .cards {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  .middle .wrapper .learn-reviews .review .cards .card {
+    border: 1px solid #e2e8f0;
+    border-radius: 16px;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    height: 27%;
+  }
+  .middle .wrapper .learn-reviews .review .cards .card .slide {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+  }
+  .middle .wrapper .learn-reviews .review .cards .card h5 {
+    color: #0f172a;
+    font-size: 18px;
+    font-weight: 600;
+    margin-right: 10px;
+    /* line-height: 3.8; */
+    margin-bottom: 84px;
+  }
+  .middle .wrapper .learn-reviews .review .cards button {
+    border: 1px solid #0f172a;
+    padding: 8px 12px;
+    border-radius: 8px;
+    background-color: #fff;
+    color: #0f172a;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  .customer .wrapper .about .top h2 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #0f172a;
+    width: 43%;
+  }
+  .footer .wrapper .last {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    padding: 80px;
+    background: #1e293b;
+    gap: 15px;
+    flex-wrap: wrap;
+  }
+  .sportlight .wrapper .sportlight-of-deatails .left .content p {
+    line-height: 1.9;
+    color: #334155;
+    font-size: 15px;
+    font-weight: 400;
+    width: 175%;
+  }
+}
